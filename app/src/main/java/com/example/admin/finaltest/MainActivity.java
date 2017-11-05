@@ -21,7 +21,7 @@ import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
 
-public class MainActivity extends AppCompatActivity implements RetryOption {
+public class MainActivity extends AppCompatActivity {
 
 
 
@@ -75,8 +75,5 @@ public class MainActivity extends AppCompatActivity implements RetryOption {
 
 
 
-    @Override
-    public void retry() {
-        apigetuserdat();
-    }
+
 }

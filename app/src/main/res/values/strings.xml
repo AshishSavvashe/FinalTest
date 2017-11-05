@@ -10,18 +10,11 @@
     <string name="cancel">Cancel</string>
     <string name="show">Show</string>
     <string name="hide">Hide</string>
-    <string name="forgot_password">Forgot Password?</string>
-    <string name="forgot_password_header">Forgot Password</string>
-    <string name="provider_forgot_password_header">Partner Forgot Password</string>
-    <string name="user_forgot_password_header">User Forgot Password</string>
-    <string name="sign_in_with_fb">Log in with <b>Facebook</b></string>
-    <string name="sign_up_with_fb">Sign Up with <b>Facebook</b></string>
-    <string name="sign_in_with_gplus">Log in with <b>Google +</b></string>
-    <string name="sign_up_with_gplus">Sign Up with <b>Google +</b></string>
+
     <string name="ok">ok</string>
 
     <string name="sign_in">Sign In</string>
-    <string name="sign_up">Sign UP</string>
+
     <string name="dont_have_an_account">Don\'t have an account?</string>
     <string name="please_enter_email">Please enter email</string>
     <string name="please_enter_valid_email_id">Please enter valid email id</string>
@@ -29,4 +22,5 @@
     <string name="internetConnectionError">No internet connection, please try again.</string>
     <string name="error_msg">Some error occurred. Please try again.</string>
     <string name="loading" />
+    <string name="forgot_password">Forgot Password</string>
 </resources>

@@ -5,12 +5,12 @@
     <color name="colorAccent">#FF4081</color>
 
     <!-- grayscale -->
-    <color name="white"     >#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
     <color name="gray_light">#DBDBDB</color>
-    <color name="gray"      >#939393</color>
-    <color name="gray_dark" >#5F5F5F</color>
-    <color name="black"     >#323232</color>
-    <color name="pure_black"     >#000</color>
+    <color name="gray">#939393</color>
+    <color name="gray_dark">#5F5F5F</color>
+    <color name="black">#323232</color>
+    <color name="pure_black">#000</color>
     <color name="yellow_text_color">#FF4081</color>
     <color name="transparent">#00fff7fa</color>
 </resources>

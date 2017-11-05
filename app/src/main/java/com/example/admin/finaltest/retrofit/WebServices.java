@@ -1,20 +1,19 @@
 package com.example.admin.finaltest.retrofit;
 
 import com.example.admin.finaltest.Model.LoginResponse;
-import com.example.admin.finaltest.Model.Result;
 import com.example.admin.finaltest.Model.User;
 
 import java.util.HashMap;
 
 import retrofit.Callback;
-import retrofit.http.Field;
-import retrofit.http.FieldMap;
-import retrofit.http.FormUrlEncoded;
 import retrofit.http.GET;
-import retrofit.http.POST;
+
 import retrofit2.Call;
 import retrofit2.http.Body;
+
 import retrofit2.http.Headers;
+import retrofit2.http.POST;
+
 
 /**
  * Created by Admin on 04-11-2017.
@@ -22,20 +21,16 @@ import retrofit2.http.Headers;
 
 public interface WebServices {
 
-
+    @Headers("Content-Type: application/json")
     @POST("/api/login")
-    Call<LoginResponse> getUser();
+    Call<LoginResponse> getUser(@Body String loginResponse);
+
 
     @GET("/api/users?page=2")
     void getAllUser(Callback<String> callback);
 
 
-    @FormUrlEncoded
-    @POST("/api/login")
-    Call<Result> userLogin(
-            @Field("email") String email,
-            @Field("password") String password
-    );
+
 
 
 }
