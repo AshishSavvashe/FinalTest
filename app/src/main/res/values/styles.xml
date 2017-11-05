@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Floating Labels EditText-->
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/five_dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="met_floatingLabel">normal</item>
+        <item name="met_floatingLabelPadding">@dimen/five_dp</item>
+        <item name="met_floatingLabelTextColor">@color/black</item>  <!-- floating label color -->
+        <!-- <item name="met_hideUnderline">true</item>-->
+        <item name="met_primaryColor">@color/colorPrimary
+        </item> <!-- highlighted edit text underline color-->
+        <item name="met_textColor">@color/gray_dark</item>  <!-- text color -->
+        <item name="met_textColorHint">@color/gray</item>  <!-- hint text color -->
+        <item name="met_underlineColor">@color/gray_dark</item>  <!-- underline text color -->
+        <item name="met_typeface">fonts/OpenSans-Semibold.ttf</item>  <!-- text font type -->
+        <item name="met_accentTypeface">fonts/OpenSans-Semibold.ttf</item>  <!-- hint font type  -->
+    </style>
+
+    <!--Custom semi-bold text appearance-->
+    <style name="CustomTextAppearance.SemiBold" parent="CustomTextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/OpenSans-Semibold.ttf</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Custom text appearance-->
+    <style name="CustomTextAppearance" parent="android:TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/OpenSans-Regular.ttf</item>
+    </style>
+
+</resources>
